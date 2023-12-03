@@ -43,8 +43,8 @@ async def main_log(message: types.Message):
     #аби не було засора командами
     if message.text and message.text.startswith("/"):
         return
-    # аби не було засора наліпками
-    if message.sticker or message.video or message.caption or message.photo:
+    #Для приймання лише тексту, без наліпок, фото, подібного
+    if not message.text:
         return
     #Підрахування шансів на відповідь, можна прибрати, це не обов'язкове
     if chance_to_answer > 60:
