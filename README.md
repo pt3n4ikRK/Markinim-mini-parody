@@ -8,3 +8,6 @@
 
 > [!TIP]
 > **Бот для телеграму, а отже й використовується бібліотека AioGram**
+>
+> ![image](https://github.com/pt3n4ikRK/Markinim-mini-parody/assets/97797470/3cbbfe22-0be5-47a0-bcf8-f7ad31a21cc2)
+
